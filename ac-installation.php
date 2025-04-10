@@ -11,7 +11,7 @@
                 <div class="d-flex mb-5">
                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle d-flex align-items-center justify-content-center"
                         style="width: 90px; height: 90px;">
-                        <img class="img-fluid" src="img/icon/icon-12-light.png" alt="Tailored">
+                        <img class="img-fluid" src="img/icon/icon-05-light.png" alt="Tailored">
                     </div>
                     <div class="ms-4">
                         <h5 class="mb-3">Tailored AC Solutions</h5>
@@ -45,7 +45,7 @@
             <!-- Right Image -->
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/ac-installation.jpg" alt="AC Installation" style="object-fit: cover;">
+                    <img class="position-absolute w-100" src="img/service-2.jpg" alt="AC Installation" style="object-fit: cover;">
                 </div>
             </div>
         </div>

@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
+          <div class="position-relative rounded overflow-hidden" style="min-height: 400px;">
             <img class="position-absolute w-100 h-100" src="img/preventive.jpg" alt="Preventive Maintenance" style="object-fit: cover;">
           </div>
         </div>

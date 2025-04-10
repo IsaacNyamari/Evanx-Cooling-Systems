@@ -8,8 +8,8 @@
                 <p class="mb-5">Evanx Cooling System also brings the heat! Our skilled technicians offer comprehensive heating solutions from installation to maintenance to ensure you're warm when it matters most.</p>
 
                 <div class="d-flex mb-5">
-                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px;">
-                        <img class="img-fluid" src="img/icon/icon-14-light.png" alt="Heating Install">
+                    <div class="flex-shrink-0 btn-square bg-light rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px;">
+                        <img class="img-fluid" src="img/install.png" alt="Heating Install">
                     </div>
                     <div class="ms-4">
                         <h5 class="mb-3">Professional Installation</h5>
@@ -40,7 +40,7 @@
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/heating-services.jpg" alt="Heating Services" style="object-fit: cover;">
+                    <img class="position-absolute w-100" src="img/heating.jpg" alt="Heating Services" style="object-fit: cover;">
                 </div>
             </div>
         </div>

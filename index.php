@@ -22,7 +22,7 @@
                                     <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">
                                         Quality assured services is what everyone is up to. And that`s the mind of Evanx Cooling System team is dedicated to offer. 
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="service.php" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                                     <p class="fs-5 text-body mb-4 pb-2 mx-sm-5 animated slideInDown">
                                     we specialize in providing top-tier heating and air conditioning services tailored to your comfort needs.
                                     </p>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
+                                    <a href="service.php" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a>
                                 </div>
                             </div>
                         </div>

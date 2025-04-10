@@ -43,7 +43,7 @@ Our vision, mission, and values are deeply rooted in our commitment to excellenc
                                         <div class="btn-lg-square bg-primary rounded-circle me-3">
                                             <i class="fa fa-envelope text-white"></i>
                                         </div>
-                                        <h5 class="mb-0">admin@evanxcoolingsystem.co.ke</h5>
+                                        <h5 class="mb-0 w-50">info@evanxcoolingsystem.co.ke</h5>
                                     </div>
                                 </div>
                             </div>
@@ -53,16 +53,16 @@ Our vision, mission, and values are deeply rooted in our commitment to excellenc
                 <div class="col-lg-6">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style="margin-top: 25%;">
+                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s" src="img/03/air-conditioner-fans.jpg" style="margin-top: 25%;">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg">
+                            <img class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s" src="img/03/air-conditioner-installation.jpg">
                         </div>
                         <div class="col-6 text-end">
-                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src="img/03/floor-heating-valves-.jpg">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                            <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s" src="img/03/air-vent-on-the-ceiling.jpg">
                         </div>
                     </div>
                 </div>
