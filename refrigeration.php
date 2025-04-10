@@ -39,16 +39,16 @@
         </div>
         <div class="col-lg-6">
           <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-            <img class="position-absolute w-100 h-100" src="img/refrigeration-repair.jpg" alt="Refrigeration Repair" style="object-fit: cover;">
+            <img class="position-absolute w-100 " src="img/refrigeration-repair.webp" alt="Refrigeration Repair" style="object-fit: cover;">
           </div>
         </div>
       </div>
 
       <!-- Image Gallery -->
       <div class="row g-4 pt-5">
-        <div class="col-md-4"><img src="img/repair1.jpg" class="img-fluid rounded shadow-sm" alt=""></div>
+        <!-- <div class="col-md-4"><img src="img/repair1.jpg" class="img-fluid rounded shadow-sm" alt=""></div>
         <div class="col-md-4"><img src="img/repair2.jpg" class="img-fluid rounded shadow-sm" alt=""></div>
-        <div class="col-md-4"><img src="img/repair3.jpg" class="img-fluid rounded shadow-sm" alt=""></div>
+        <div class="col-md-4"><img src="img/repair3.jpg" class="img-fluid rounded shadow-sm" alt=""></div> -->
       </div>
     </div>
   </div>
