@@ -7,7 +7,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="team-img position-relative overflow-hidden d-flex">
-                            <img class="img-fluid" src="img/evans.jpg" alt="">
+                            <img class="img-fluid" style="height: 300px !important; object-fit:cover" src="img/evans.jpg" alt="">
                             <div class="team-social">
                                
                             </div>
@@ -21,7 +21,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="team-img position-relative overflow-hidden d-flex">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" style="height: 300px !important; object-fit:cover" src="img/serah.jpg" alt="">
                             <div class="team-social">
                                
                             </div>
