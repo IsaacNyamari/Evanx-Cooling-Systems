@@ -9,7 +9,7 @@
 
                 <div class="d-flex mb-5">
                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px;">
-                        <img class="img-fluid" src="img/icon/icon-11-light.png" alt="Reliable">
+                        <img class="img-fluid" src="img/icon/icon-03-light.png" alt="Reliable">
                     </div>
                     <div class="ms-4">
                         <h5 class="mb-3">Detailed Reporting</h5>
@@ -40,7 +40,7 @@
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/annual-inspection.jpg" alt="Annual Inspection" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="img/High-Quality-AC-Cold-Storage-Room-Evaporator-R404A-for-Refrigeration-Equipment.avif" alt="Annual Inspection" style="object-fit: cover;">
                 </div>
             </div>
         </div>

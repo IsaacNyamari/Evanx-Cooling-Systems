@@ -9,7 +9,7 @@
 
                 <div class="d-flex mb-5">
                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px;">
-                        <img class="img-fluid" src="img/icon/icon-12-light.png" alt="Air Quality">
+                        <img class="img-fluid" src="img/icon/icon-03-light.png" alt="Air Quality">
                     </div>
                     <div class="ms-4">
                         <h5 class="mb-3">HEPA & UV Filtration</h5>
@@ -19,7 +19,7 @@
 
                 <div class="d-flex mb-5">
                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px;">
-                        <img class="img-fluid" src="img/icon/icon-13-light.png" alt="Sensors">
+                        <img class="img-fluid" src="img/icon/icon-04-light.png" alt="Sensors">
                     </div>
                     <div class="ms-4">
                         <h5 class="mb-3">Smart Monitoring</h5>
@@ -40,7 +40,7 @@
 
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/indoor-air-quality.jpg" alt="Indoor Air Quality" style="object-fit: cover;">
+                    <img class="position-absolute w-100" src="img/HVAC-Air-Cooling-Cold-Storage-Room-for-Vegetable-Meat.avif" alt="Indoor Air Quality" style="object-fit: cover;">
                 </div>
             </div>
         </div>

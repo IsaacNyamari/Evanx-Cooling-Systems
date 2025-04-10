@@ -17,16 +17,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // SMTP settings (customize these)
         $mail->isSMTP();
-        $mail->Host       = 'mail.evansgasinstallation.co.ke'; // your SMTP host
+        $mail->Host       = 'mail.evanxcoolingsystems.co.ke'; // your SMTP host
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'cronjob@evansgasinstallation.co.ke';   // SMTP username
-        $mail->Password   = 'johnathan&nathaniel';    // SMTP password
+        $mail->Username   = 'info@evanxcoolingsystems.co.ke';   // SMTP username
+        $mail->Password   = 'info@Evanx';    // SMTP password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // Email content
         $mail->setFrom($email, $name);
-        $mail->addAddress('admin@evansgasinstallation.co.ke'); // where the message will go
+        $mail->addAddress('info@evanxcoolingsystems.co.ke'); // where the message will go
 
         $mail->isHTML(true);
         $mail->Subject = $subject;
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <div class='email-container'>
     <div class='email-header'>
-      <h1>📬 New Message</h1>
+      <h1> New Message</h1>
     </div>
     <div class='email-body'>
       <h2>You've received a message from your website</h2>
