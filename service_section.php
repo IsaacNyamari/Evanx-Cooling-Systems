@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item">
-                        <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        <img class="img-fluid" src="img/Cold-room-condensing-unit.jpg" alt="">
                         <div class="d-flex align-items-center bg-light">
                             <div class="service-icon flex-shrink-0 bg-primary">
                                 <img class="img-fluid" src="img/icon/icon-02-light.png" alt="">

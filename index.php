@@ -61,7 +61,7 @@
 
 
     <!-- About Start -->
-    <?php require"about_section.php"?>
+    <?php require "about_section.php"?>
     <!-- About End -->
 
 

@@ -484,3 +484,11 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+.zoomIn{
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    width: 300px !important;
+    height: 200px !important;
+    object-fit: cover;
+}
