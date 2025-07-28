@@ -114,16 +114,16 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Our Services</h5>
-                <a class="btn btn-link" href="./cold-room">Cold Room Installation</a>
-                <a class="btn btn-link" href="./refrigeration">Refrigeration Repair</a>
-                <a class="btn btn-link" href="./maintenance">Preventive Maintenance</a>
-                <a class="btn btn-link" href="./consultation">Cooling System Consultation</a>
+                <a class="btn btn-link" href="../cold-room-nstallation">Cold Room Installation</a>
+                <a class="btn btn-link" href="../refrigeration-repair">Refrigeration Repair</a>
+                <a class="btn btn-link" href="../maintenance-and-repair">Preventive Maintenance</a>
+                <a class="btn btn-link" href="consultation">Cooling System Consultation</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="./about">About Us</a>
-                <a class="btn btn-link" href="./contact">Contact</a>
-                <a class="btn btn-link" href="./services">Services</a>
+                <a class="btn btn-link" href="../about">About Us</a>
+                <a class="btn btn-link" href="../contact">Contact</a>
+                <a class="btn btn-link" href="../service">Services</a>
                 <a class="btn btn-link" data-bs-toggle="modal"
                     data-bs-target="#quoteModal">Get Quote</a>
             </div>
@@ -142,7 +142,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="./">Evanx Cooling System</a>, All Rights Reserved.
+                    &copy; <a href="../">Evanx Cooling System</a>, All Rights Reserved.
                 </div>
             </div>
         </div>
@@ -157,115 +157,77 @@
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="lib/wow/wow.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/parallax/parallax.min.js"></script>
+<script src="../lib/wow/wow.min.js"></script>
+<script src="../lib/easing/easing.min.js"></script>
+<script src="../lib/waypoints/waypoints.min.js"></script>
+<script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="../lib/counterup/counterup.min.js"></script>
+<script src="../lib/parallax/parallax.min.js"></script>
 
 <!-- Template Javascript -->
-<script src="js/main.js"></script>
+<script src="../js/main.js"></script>
 <script>
-    const myModal = document.getElementById('quoteModal');
-    const requestBtn = document.getElementById('requestBtn');
-    const contactForm = document.getElementById("contactForm");
-    const submitBtn = document.getElementById("contactSubmitBtn");
-    myModal.addEventListener('shown.bs.modal', function() {
-        const form = document.querySelector("#quoteForm");
-        if (!form) return;
-        console.log(form);
-
-        form.addEventListener("submit", function(e) {
-            e.preventDefault();
-            const formData = new FormData(this);
-            requestBtn.innerHTML = `
-            <i class="fas fa-spinner fa-spin"></i> Requesting...
-            `
-            fetch("sendQuote.php", {
-                    method: "POST",
-                    body: formData,
-                })
-                .then(res => res.json())
-                .then(data => {
-                    showToast(data.status === "success" ? "success" : "danger", data.message);
-                    if (data.status === "success") {
-                        this.reset();
-                    }
-                    requestBtn.innerHTML = `Request`
-                    setTimeout(() => {
-                        const bsModal = bootstrap.Modal.getInstance(myModal) || new bootstrap.Modal(myModal);
-                        bsModal.hide();
-                    }, 5000);
-                })
-                .catch(() => {
-                    requestBtn.innerHTML = `Request`
-                    showToast("danger", "Something went wrong. Please try again.");
-                });
+    const _0x4b9c = ['quoteModal', 'requestBtn', 'contactForm', 'contactSubmitBtn', 'shown.bs.modal', 'querySelector', '#quoteForm', 'innerHTML', '<i\x20class=\x22fas\x20fa-spinner\x20fa-spin\x22></i>\x20Requesting...\x20', 'submit', 'preventDefault', 'FormData', 'sendQuote.php', 'POST', 'then', 'json', 'status', 'success', 'showToast', 'danger', 'message', 'reset', 'Request', 'getInstance', 'hide', 'catch', 'Something\x20went\x20wrong.\x20Please\x20try\x20again.', 'toast', 'align-items-center', 'text-white', 'bg-', '\x20border-0\x20show\x20position-fixed\x20bottom-0\x20end-0\x20m-3', 'role', 'alert', 'aria-live', 'assertive', 'aria-atomic', 'true', 'd-flex', 'toast-body', '<button\x20type=\x22button\x22\x20class=\x22btn-close\x20btn-close-white\x20me-2\x20m-auto\x22\x20data-bs-dismiss=\x22toast\x22\x20aria-label=\x22Close\x22></button>', 'beforeend', '.toast:last-child', 'remove', 'sendmail.php', 'spinner-border\x20spinner-border-sm\x20me-2', 'status,\x20aria-hidden=\x22true\x22', 'Sending...', 'disabled', 'finally'];
+    (function(_0x2c3a3a, _0x4b9c3b) {
+        const _0x2e3f9a = function(_0x1c8d8f) {
+            while (--_0x1c8d8f) {
+                _0x2c3a3a['push'](_0x2c3a3a['shift']());
+            }
+        };
+        _0x2e3f9a(++_0x4b9c3b);
+    }(_0x4b9c, 0x1a4));
+    const _0x2e3f = function(_0x2c3a3a, _0x4b9c3b) {
+        _0x2c3a3a = _0x2c3a3a - 0x0;
+        let _0x2e3f9a = _0x4b9c[_0x2c3a3a];
+        return _0x2e3f9a;
+    };
+    const myModal = document[_0x2e3f('0x0')](_0x2e3f('0x1')),
+        requestBtn = document[_0x2e3f('0x0')](_0x2e3f('0x2')),
+        contactForm = document[_0x2e3f('0x0')](_0x2e3f('0x3')),
+        submitBtn = document[_0x2e3f('0x0')](_0x2e3f('0x4'));
+    myModal['addEventListener'](_0x2e3f('0x5'), function() {
+        const _0x1c8d8f = document[_0x2e3f('0x6')](_0x2e3f('0x7'));
+        if (!_0x1c8d8f) return;
+        console['log'](_0x1c8d8f), _0x1c8d8f[_0x2e3f('0x8')](_0x2e3f('0x9'), function(_0x5a46e2) {
+            _0x5a46e2[_0x2e3f('0xa')]();
+            const _0x5a46e3 = new FormData(this);
+            requestBtn[_0x2e3f('0xb')] = _0x2e3f('0xc'), fetch(_0x2e3f('0xd'), {
+                'method': _0x2e3f('0xe'),
+                'body': _0x5a46e3
+            })[_0x2e3f('0xf')](_0x5a46e2 => _0x5a46e2[_0x2e3f('0x10')]())[_0x2e3f('0xf')](_0x5a46e2 => {
+                showToast(_0x5a46e2[_0x2e3f('0x11')] === _0x2e3f('0x12') ? _0x2e3f('0x12') : _0x2e3f('0x13'), _0x5a46e2[_0x2e3f('0x14')]), _0x5a46e2[_0x2e3f('0x11')] === _0x2e3f('0x12') && this[_0x2e3f('0x15')](), requestBtn[_0x2e3f('0xb')] = _0x2e3f('0x16'), setTimeout(() => {
+                    const _0x5a46e2 = bootstrap['Modal'][_0x2e3f('0x17')](myModal) || new bootstrap['Modal'](myModal);
+                    _0x5a46e2[_0x2e3f('0x18')]();
+                }, 0x1388);
+            })[_0x2e3f('0x19')](() => {
+                requestBtn[_0x2e3f('0xb')] = _0x2e3f('0x16'), showToast(_0x2e3f('0x13'), _0x2e3f('0x1a'));
+            });
         }, {
-            once: true
-        }); // Attach only once per modal show
+            'once': !![]
+        });
     });
 
-    function showToast(type, message) {
-        const toastHTML = `
-      <div style="z-index:5000" class="toast align-items-center text-white bg-${type} border-0 show position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-          <div class="toast-body">${message}</div>
-          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-      </div>`;
-        document.body.insertAdjacentHTML("beforeend", toastHTML);
-        setTimeout(() => {
-            document.querySelector(".toast:last-child")?.remove();
-        }, 5000);
+    function showToast(_0x5a46e2, _0x1c8d8f) {
+        const _0x5a46e3 = `\x20<div\x20style=\x22z-index:5000\x22\x20class=\x22${_0x2e3f('0x1b')}\x20${_0x2e3f('0x1c')}\x20${_0x2e3f('0x1d')}${_0x5a46e2}\x20${_0x2e3f('0x1e')}\x20${_0x2e3f('0x1f')}=\x22${_0x2e3f('0x20')}\x22\x20${_0x2e3f('0x21')}=\x22${_0x2e3f('0x22')}\x22\x20${_0x2e3f('0x23')}=\x22${_0x2e3f('0x24')}\x22>\x20<div\x20class=\x22${_0x2e3f('0x25')}\x22>\x20<div\x20class=\x22${_0x2e3f('0x26')}\x22>${_0x1c8d8f}</div>\x20${_0x2e3f('0x27')}\x20</div>\x20</div>`;
+        document['body'][_0x2e3f('0x28')](_0x2e3f('0x29'), _0x5a46e3), setTimeout(() => {
+            document[_0x2e3f('0x6')](_0x2e3f('0x2a'))?.[_0x2e3f('0x2b')]();
+        }, 0x1388);
     }
-
-
-    contactForm ? contactForm.addEventListener("submit", function(e) {
-        e.preventDefault();
-
-        const formData = new FormData(this);
-
-        // Show spinner on button
-        const originalHTML = submitBtn.innerHTML;
-        submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> Sending...`;
-        submitBtn.disabled = true;
-
-        fetch(this.action, {
-                method: "POST",
-                body: formData
-            })
-            .then(res => res.json()) // Make sure your PHP returns JSON!
-            .then(data => {
-                showToast(data.status === "success" ? "success" : "danger", data.message);
-
-                if (data.status === "success") {
-                    this.reset();
-                }
-            })
-            .catch(() => {
-                showToast("danger", "Something went wrong. Please try again.");
-            })
-            .finally(() => {
-                submitBtn.innerHTML = originalHTML;
-                submitBtn.disabled = false;
-            });
-    }) : "";
-
-    function showToast(type, message) {
-        const toastHTML = `
-      <div class="toast align-items-center text-white bg-${type} border-0 show position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-          <div class="toast-body">${message}</div>
-          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-      </div>`;
-        document.body.insertAdjacentHTML("beforeend", toastHTML);
-        setTimeout(() => {
-            document.querySelector(".toast:last-child")?.remove();
-        }, 5000);
-    }
+    contactForm ? contactForm[_0x2e3f('0x8')](_0x2e3f('0x9'), function(_0x5a46e2) {
+        _0x5a46e2[_0x2e3f('0xa')]();
+        const _0x5a46e3 = new FormData(this),
+            _0x1c8d8f = submitBtn[_0x2e3f('0xb')];
+        submitBtn[_0x2e3f('0xb')] = `<span\x20class=\x22${_0x2e3f('0x2c')}\x22\x20${_0x2e3f('0x2d')}></span>\x20${_0x2e3f('0x2e')}`, submitBtn[_0x2e3f('0x2f')] = !![], fetch(_0x2e3f('0x30'), {
+            'method': _0x2e3f('0xe'),
+            'body': _0x5a46e3
+        })[_0x2e3f('0xf')](_0x5a46e2 => _0x5a46e2[_0x2e3f('0x10')]())[_0x2e3f('0xf')](_0x5a46e2 => {
+            showToast(_0x5a46e2[_0x2e3f('0x11')] === _0x2e3f('0x12') ? _0x2e3f('0x12') : _0x2e3f('0x13'), _0x5a46e2[_0x2e3f('0x14')]), _0x5a46e2[_0x2e3f('0x11')] === _0x2e3f('0x12') && this[_0x2e3f('0x15')]();
+        })[_0x2e3f('0x19')](() => {
+            showToast(_0x2e3f('0x13'), _0x2e3f('0x1a'));
+        })[_0x2e3f('0x31')](() => {
+            submitBtn[_0x2e3f('0xb')] = _0x1c8d8f, submitBtn[_0x2e3f('0x2f')] = ![];
+        });
+    }) : '';
 </script>
 
 

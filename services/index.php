@@ -1,12 +1,12 @@
 <?php
-require "header.php";
+require "../header/index.php";
 
 ?>
 
 
 <!-- Navbar Start -->
 <?php
-require "nav.php";
+require "../nav/index.php";
 
 ?>
 <!-- Navbar End -->
@@ -18,8 +18,7 @@ require "nav.php";
         <h1 class="display-4 text-white animated slideInDown mb-4">Services</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item"><a href="./">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Services</li>
             </ol>
         </nav>
@@ -30,15 +29,15 @@ require "nav.php";
 
 <!-- Service Start -->
 <?php
- require "service_section.php" 
- ?>
+require "../service_section.php"
+?>
 <?php
- require "testimonial_section.php" 
- ?>
+require "../testimonial_section.php"
+?>
 <!-- Service End -->
 
 
 <?php
 
-require "footer.php"
+require "../footer/index.php"
 ?>

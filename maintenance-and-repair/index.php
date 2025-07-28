@@ -1,5 +1,5 @@
-<?php require "header.php"?>
-<?php require "nav.php"?>
+<?php require "../header/index.php"?>
+<?php require "../nav/index.php"?>
   <div class="container-xxl py-5">
     <div class="container">
       <div class="row g-5">
@@ -52,4 +52,4 @@
       </div>
     </div>
   </div>
-<?php require "footer.php"?>
+<?php require "../footer/index.php"?>
