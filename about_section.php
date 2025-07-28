@@ -56,13 +56,13 @@ Our vision, mission, and values are deeply rooted in our commitment to excellenc
                             <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.1s" src="img/03/air-conditioner-fans.jpg">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.3s" src="img/03/air-conditioner-installation.jpg">
+                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.3s" src="img/cold-room-ac-unit.jpg">
                         </div>
                         <div class="col-6 text-end">
-                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src="img/03/floor-heating-valves-.jpg">
+                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s" src="img/000.photogal-1120213.jpeg">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.7s" src="img/03/air-vent-on-the-ceiling.jpg">
+                            <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.7s" src="img/Split AC.avif">
                         </div>
                     </div>
                 </div>

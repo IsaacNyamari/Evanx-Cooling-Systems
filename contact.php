@@ -31,7 +31,7 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <h1 class="display-6 mb-5">If You Have Any Query, Please Contact Us</h1>
                     <h2 class="mb-4">Get In Touch</h2>
-                    <form action="sendmail.php" method="POST">
+                    <form action="#" method="POST" id="contactForm">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -58,23 +58,20 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                                <button class="btn btn-primary py-3 px-5" type="submit" id="contactSubmitBtn">Send Message</button>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
                     <div class="position-relative overflow-hidden h-100">
-                        <iframe class="position-relative w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.4112302682777!2d36.82515450000002!3d-1.2801745999999976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1195e66be907%3A0x690250baf27e1cd6!2sGas%20Line%20Installation!5e0!3m2!1sen!2ske!4v1744285799338!5m2!1sen!2ske"
-                            frameborder="0" style="min-height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
-                            tabindex="0"></iframe>
+                       <iframe style="min-height: 450px; border:0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.2047130862408!2d36.828795069588004!3d-1.2824917591500093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112bead16fe9%3A0x7da93c67fc8b5f1c!2sNew%20Mwea%20House!5e0!3m2!1sen!2ske!4v1753695159925!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Contact End -->
-    
-    
-<?php require "footer.php"?>
+
+
+    <?php require "footer.php" ?>

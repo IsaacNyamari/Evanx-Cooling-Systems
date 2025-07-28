@@ -45,7 +45,7 @@
             <!-- Right Image -->
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative rounded overflow-hidden h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100" src="img/service-2.jpg" alt="AC Installation" style="object-fit: cover;">
+                    <img class="position-absolute w-100" src="img/Split AC.avif" alt="AC Installation" style="object-fit: cover;">
                 </div>
             </div>
         </div>

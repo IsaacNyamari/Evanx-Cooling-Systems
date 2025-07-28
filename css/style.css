@@ -179,7 +179,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -189,7 +189,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(1, 10, 53, .8), rgba(1, 10, 53, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(1, 10, 53, .8), rgba(1, 10, 53, .8)), url(../img/july-2025/split-system-micro-climate.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -206,21 +206,21 @@
 
 /*** Facts ***/
 .facts {
-	position: relative;
+    position: relative;
 }
 
 .facts * {
-	position: relative;
-	z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .facts::after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     background: rgba(1, 10, 53, .8);
 }
 
@@ -241,44 +241,44 @@
 }
 
 @media (min-width: 1200px) {
-    .container.quote .quote-text  {
+    .container.quote .quote-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 
-    .container.quote .quote-form  {
+    .container.quote .quote-form {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .container.quote .quote-text  {
+    .container.quote .quote-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 
-    .container.quote .quote-form  {
+    .container.quote .quote-form {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
 
 .container.quote .quote-text,
 .container.quote .quote-form {
-	position: relative;
+    position: relative;
 }
 
 .container.quote .quote-text *,
 .container.quote .quote-form * {
-	position: relative;
-	z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .container.quote .quote-text::after,
 .container.quote .quote-form::after {
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .container.quote .quote-text::after {
@@ -484,11 +484,32 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
-.zoomIn{
+
+.zoomIn {
     animation-name: zoomIn;
     animation-duration: 1s;
     animation-fill-mode: both;
     width: 300px !important;
     height: 200px !important;
     object-fit: cover;
+}
+
+.service-item img {
+    height: 250px;
+    /* Adjust to your desired height */
+    object-fit: cover;
+    /* Makes sure image fills without distortion */
+    width: 100%;
+    /* Ensures full width */
+    display: block;
+    /* Removes any inline spacing */
+}
+.service-item:hover{
+    transform: translateY(-20px);
+    transition: all ease-in-out 1s;
+}
+
+.service-item:hover .serviceDesc {
+    color: #FF800F !important;
+    transition: all ease 1s;
 }

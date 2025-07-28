@@ -1,4 +1,4 @@
-<div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/carousel-1.jpg">
+<div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/cold-room-ac-unit.jpg">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-sm-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">

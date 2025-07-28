@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>New Quote from {{sender_name}}</title>
+  <style>
+    body {
+      background: #e9ecef;
+      padding: 2rem 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #212529;
+    }
+    .container {
+      max-width: 640px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+    .header {
+      background: #0d6efd;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .header h2 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.75rem;
+    }
+    .content {
+      padding: 40px 30px;
+    }
+    .content p {
+      margin: 0 0 20px;
+      line-height: 1.6;
+    }
+    .content strong {
+      color: #0d6efd;
+    }
+    .footer {
+      background: #f8f9fa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>New Quote Request</h2>
+    </div>
+  <div class="content">
+  <div class="row mb-3">
+    <div class="col-4 fw-bold text-primary">Name:</div>
+    <div class="col-8">{{sender_name}}</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-4 fw-bold text-primary">Email:</div>
+    <div class="col-8">{{sender_email}}</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-4 fw-bold text-primary">Mobile:</div>
+    <div class="col-8">{{sender_mobile}}</div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-4 fw-bold text-primary">Service:</div>
+    <div class="col-8">{{sender_service}}</div>
+  </div>
+  <div class="row">
+    <div class="col-4 fw-bold text-primary">Message:</div>
+    <div class="col-8">{{sender_message}}</div>
+  </div>
+</div>
+
+    <div class="footer">
+      &copy; {{current_year}} Evanx Cooling Systems.
+    </div>
+  </div>
+</body>
+</html>
